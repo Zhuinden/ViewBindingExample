@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.onClick {
-            showToast("hello world!")
+            showToast("hello activity button click!")
         }
 
         if (savedInstanceState == null) {
